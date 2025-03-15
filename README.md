@@ -11,7 +11,7 @@ This is a React + jQuery-based random quote generator that meets all the user st
 3.	Fade-in Animation<br />
 	•	Uses jQuery to change the text opacity, creating a fade-out/fade-in effect when quotes are updated.
 4.	Social Sharing<br />
-	•	Click the Twitter button to share the current quote on Twitter.
+	•	Click the Twitter button to share the current quote on Twitter.<br />
 	•	Click the Tumblr button (optional) to share the current quote on Tumblr.
 5.	Meets FreeCodeCamp Requirements<br />
 	•	Includes all the required elements and functionality for the Random Quote Machine tests.
