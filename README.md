@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Random Quote Machine
+Solution Link: https://randomquotemachine-mingcanyang.netlify.app/ <br /><br />
+![chrome-capture-2025-3-16](https://github.com/user-attachments/assets/62562803-9dfa-46e3-85a5-c5ef08409491)<br /><br />
+This is a React + jQuery-based random quote generator that meets all the user stories required by the FreeCodeCamp Random Quote Machine project. Clicking the New Quote button fetches a new quote, while also changing the background and button colors. You can also share the current quote via Twitter and Tumblr.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+1.	Random Quote Retrieval<br />
+	•	Fetches a set of quotes from a Camperbot Gist (quotes.json) using jQuery, then randomly displays one.
+2.	Background & Button Color Changes<br />
+	•	Each time you click New Quote, the background color, text color, and button colors change, with a smooth transition effect.
+3.	Fade-in Animation<br />
+	•	Uses jQuery to change the text opacity, creating a fade-out/fade-in effect when quotes are updated.
+4.	Social Sharing<br />
+	•	Click the Twitter button to share the current quote on Twitter.
+	•	Click the Tumblr button (optional) to share the current quote on Tumblr.
+5.	Meets FreeCodeCamp Requirements<br />
+	•	Includes all the required elements and functionality for the Random Quote Machine tests.
 
-## Available Scripts
+## Tech Stack
+1.	React (Create React App)
+2.	jQuery (AJAX requests for random quotes and handling fade-in animations)
+3.	CSS (CSS transitions and custom styling)
+4.	Font Awesome (optional, for social icons)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Testing
+1.	Include the test script in your public/index.html (or add it via your browser console):<br />
+`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`  
+2.	Open the app in your browser, click on the test menu in the top-right corner, choose Random Quote Machine, and run the tests.
