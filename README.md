@@ -24,5 +24,7 @@ This is a React + jQuery-based random quote generator that meets all the user st
 
 ## Testing
 1.	Include the test script in your public/index.html (or add it via your browser console):<br />
-`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`  
+```bash
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+```
 2.	Open the app in your browser, click on the test menu in the top-right corner, choose Random Quote Machine, and run the tests.
